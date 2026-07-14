@@ -14,7 +14,7 @@ int partition(vector<int>&k,int a,int b){
         if(k[i]<=k[a+co]) {
             i++;   
         }
-        else if(k[j]>k[a+co]) {
+        else if(k[j]>=k[a+co]) {
             j--;
         }
         else{

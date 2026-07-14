@@ -28,7 +28,7 @@ void mergeSort(vector<int>&arr,vector<int>&brr,vector<int>&crr){
             i++;
 
         }
-        
+
     }
     
 }
